@@ -16,7 +16,7 @@ import random
 def main():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_path', default='/mnt/DataDrive/lizheng/image_text/data/butd/',
+    parser.add_argument('--data_path', default='butd/',
                         help='path to datasets')
     parser.add_argument('--data_name', default='_precomp',
                         help='{coco,f30k}_precomp')
